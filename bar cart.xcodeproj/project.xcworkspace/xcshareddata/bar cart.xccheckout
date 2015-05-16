@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7833E763-7572-481D-8007-73DDADA149EA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>bar cart</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F16180AC99CDBF108F82355CE9E7600A3414D776</key>
+		<string>https://github.com/kryptonite303/Bar-Cart.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bar cart.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F16180AC99CDBF108F82355CE9E7600A3414D776</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kryptonite303/Bar-Cart.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F16180AC99CDBF108F82355CE9E7600A3414D776</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F16180AC99CDBF108F82355CE9E7600A3414D776</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bar-Cart</string>
+		</dict>
+	</array>
+</dict>
+</plist>

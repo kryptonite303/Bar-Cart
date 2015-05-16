@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7298C4361AF72B76007E4122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C4351AF72B76007E4122 /* main.m */; };
+		7298C4501AF72B76007E4122 /* Bar_CartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C44F1AF72B76007E4122 /* Bar_CartTests.m */; };
+		7298C4601AF72BFB007E4122 /* barcart.sql in Resources */ = {isa = PBXBuildFile; fileRef = 7298C4591AF72BFB007E4122 /* barcart.sql */; };
+		7298C4611AF72BFB007E4122 /* bar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7298C45A1AF72BFB007E4122 /* bar2.jpg */; };
+		7298C4621AF72BFB007E4122 /* bar1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7298C45B1AF72BFB007E4122 /* bar1.jpg */; };
+		7298C4631AF72BFB007E4122 /* bc@40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7298C45C1AF72BFB007E4122 /* bc@40.png */; };
+		7298C4641AF72BFB007E4122 /* bc@120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7298C45D1AF72BFB007E4122 /* bc@120.png */; };
+		7298C4651AF72BFB007E4122 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C45F1AF72BFB007E4122 /* DBManager.m */; };
+		7298C47A1AF72C14007E4122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C4671AF72C14007E4122 /* AppDelegate.m */; };
+		7298C47B1AF72C14007E4122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7298C4681AF72C14007E4122 /* Main.storyboard */; };
+		7298C47C1AF72C14007E4122 /* IngredientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C46A1AF72C14007E4122 /* IngredientViewController.m */; };
+		7298C47D1AF72C14007E4122 /* InventoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C46C1AF72C14007E4122 /* InventoryListViewController.m */; };
+		7298C47E1AF72C14007E4122 /* SearchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C46E1AF72C14007E4122 /* SearchScreenViewController.m */; };
+		7298C47F1AF72C14007E4122 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C4701AF72C14007E4122 /* MainMenuViewController.m */; };
+		7298C4801AF72C14007E4122 /* EditRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C4721AF72C14007E4122 /* EditRecipeViewController.m */; };
+		7298C4811AF72C14007E4122 /* EditDrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C4741AF72C14007E4122 /* EditDrinkViewController.m */; };
+		7298C4821AF72C14007E4122 /* RecipeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C4761AF72C14007E4122 /* RecipeListViewController.m */; };
+		7298C4831AF72C14007E4122 /* DrinkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298C4781AF72C14007E4122 /* DrinkListViewController.m */; };
+		7298C4841AF72C14007E4122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7298C4791AF72C14007E4122 /* Images.xcassets */; };
+		7298C4861AF72C63007E4122 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7298C4851AF72C63007E4122 /* libsqlite3.dylib */; };
+		F73732801AFA932500085F99 /* barcartbg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F737327F1AFA932500085F99 /* barcartbg1.jpg */; };
+		F73732821AFA983100085F99 /* barcartbg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F73732811AFA983100085F99 /* barcartbg2.jpg */; };
+		F73732841AFA9A3700085F99 /* barcartbg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F73732831AFA9A3700085F99 /* barcartbg3.jpg */; };
+		F73732901AFA9ECD00085F99 /* barcartbg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F737328F1AFA9ECD00085F99 /* barcartbg4.jpg */; };
+		F7474D551AF765340030347D /* shaker1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7474D501AF765340030347D /* shaker1.png */; };
+		F7474D561AF765340030347D /* shaker2.png in Resources */ = {isa = PBXBuildFile; fileRef = F7474D511AF765340030347D /* shaker2.png */; };
+		F7474D571AF765340030347D /* shaker3.png in Resources */ = {isa = PBXBuildFile; fileRef = F7474D521AF765340030347D /* shaker3.png */; };
+		F7474D581AF765340030347D /* shaker7.png in Resources */ = {isa = PBXBuildFile; fileRef = F7474D531AF765340030347D /* shaker7.png */; };
+		F7474D591AF765340030347D /* shaker8.png in Resources */ = {isa = PBXBuildFile; fileRef = F7474D541AF765340030347D /* shaker8.png */; };
+		F75CF2941AF7CDA70041FD34 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75CF2931AF7CDA70041FD34 /* AudioToolbox.framework */; };
+		F75CF2961AF7CE7F0041FD34 /* clink.wav in Resources */ = {isa = PBXBuildFile; fileRef = F75CF2951AF7CE7F0041FD34 /* clink.wav */; };
+		F75CF2981AF7DDE00041FD34 /* clink.wav in Resources */ = {isa = PBXBuildFile; fileRef = F75CF2971AF7DDDF0041FD34 /* clink.wav */; };
+		F75CF29A1AF7E02D0041FD34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75CF2991AF7E02D0041FD34 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7298C44A1AF72B76007E4122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7298C4281AF72B76007E4122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7298C42F1AF72B76007E4122;
+			remoteInfo = "Bar Cart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7298C4301AF72B76007E4122 /* Bar Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar Cart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7298C4341AF72B76007E4122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7298C4351AF72B76007E4122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7298C4491AF72B76007E4122 /* Bar CartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bar CartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7298C44E1AF72B76007E4122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7298C44F1AF72B76007E4122 /* Bar_CartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bar_CartTests.m; sourceTree = "<group>"; };
+		7298C4591AF72BFB007E4122 /* barcart.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = barcart.sql; sourceTree = "<group>"; };
+		7298C45A1AF72BFB007E4122 /* bar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar2.jpg; sourceTree = "<group>"; };
+		7298C45B1AF72BFB007E4122 /* bar1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar1.jpg; sourceTree = "<group>"; };
+		7298C45C1AF72BFB007E4122 /* bc@40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bc@40.png"; sourceTree = "<group>"; };
+		7298C45D1AF72BFB007E4122 /* bc@120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bc@120.png"; sourceTree = "<group>"; };
+		7298C45E1AF72BFB007E4122 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		7298C45F1AF72BFB007E4122 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		7298C4661AF72C14007E4122 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7298C4671AF72C14007E4122 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7298C4681AF72C14007E4122 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7298C4691AF72C14007E4122 /* IngredientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientViewController.h; sourceTree = "<group>"; };
+		7298C46A1AF72C14007E4122 /* IngredientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientViewController.m; sourceTree = "<group>"; };
+		7298C46B1AF72C14007E4122 /* InventoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryListViewController.h; sourceTree = "<group>"; };
+		7298C46C1AF72C14007E4122 /* InventoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryListViewController.m; sourceTree = "<group>"; };
+		7298C46D1AF72C14007E4122 /* SearchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchScreenViewController.h; sourceTree = "<group>"; };
+		7298C46E1AF72C14007E4122 /* SearchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchScreenViewController.m; sourceTree = "<group>"; };
+		7298C46F1AF72C14007E4122 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		7298C4701AF72C14007E4122 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		7298C4711AF72C14007E4122 /* EditRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditRecipeViewController.h; sourceTree = "<group>"; };
+		7298C4721AF72C14007E4122 /* EditRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditRecipeViewController.m; sourceTree = "<group>"; };
+		7298C4731AF72C14007E4122 /* EditDrinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDrinkViewController.h; sourceTree = "<group>"; };
+		7298C4741AF72C14007E4122 /* EditDrinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDrinkViewController.m; sourceTree = "<group>"; };
+		7298C4751AF72C14007E4122 /* RecipeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListViewController.h; sourceTree = "<group>"; };
+		7298C4761AF72C14007E4122 /* RecipeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListViewController.m; sourceTree = "<group>"; };
+		7298C4771AF72C14007E4122 /* DrinkListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkListViewController.h; sourceTree = "<group>"; };
+		7298C4781AF72C14007E4122 /* DrinkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkListViewController.m; sourceTree = "<group>"; };
+		7298C4791AF72C14007E4122 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7298C4851AF72C63007E4122 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F737327F1AFA932500085F99 /* barcartbg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcartbg1.jpg; sourceTree = "<group>"; };
+		F73732811AFA983100085F99 /* barcartbg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcartbg2.jpg; sourceTree = "<group>"; };
+		F73732831AFA9A3700085F99 /* barcartbg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcartbg3.jpg; sourceTree = "<group>"; };
+		F737328F1AFA9ECD00085F99 /* barcartbg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcartbg4.jpg; sourceTree = "<group>"; };
+		F7474D501AF765340030347D /* shaker1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shaker1.png; sourceTree = "<group>"; };
+		F7474D511AF765340030347D /* shaker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shaker2.png; sourceTree = "<group>"; };
+		F7474D521AF765340030347D /* shaker3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shaker3.png; sourceTree = "<group>"; };
+		F7474D531AF765340030347D /* shaker7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shaker7.png; sourceTree = "<group>"; };
+		F7474D541AF765340030347D /* shaker8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shaker8.png; sourceTree = "<group>"; };
+		F75CF2931AF7CDA70041FD34 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F75CF2951AF7CE7F0041FD34 /* clink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clink.wav; sourceTree = "<group>"; };
+		F75CF2971AF7DDDF0041FD34 /* clink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clink.wav; sourceTree = "<group>"; };
+		F75CF2991AF7E02D0041FD34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7298C42D1AF72B76007E4122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75CF29A1AF7E02D0041FD34 /* AVFoundation.framework in Frameworks */,
+				F75CF2941AF7CDA70041FD34 /* AudioToolbox.framework in Frameworks */,
+				7298C4861AF72C63007E4122 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7298C4461AF72B76007E4122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7298C4271AF72B76007E4122 = {
+			isa = PBXGroup;
+			children = (
+				F75CF2991AF7E02D0041FD34 /* AVFoundation.framework */,
+				F75CF2971AF7DDDF0041FD34 /* clink.wav */,
+				F75CF2931AF7CDA70041FD34 /* AudioToolbox.framework */,
+				7298C4851AF72C63007E4122 /* libsqlite3.dylib */,
+				7298C4591AF72BFB007E4122 /* barcart.sql */,
+				7298C45A1AF72BFB007E4122 /* bar2.jpg */,
+				7298C45B1AF72BFB007E4122 /* bar1.jpg */,
+				F73732811AFA983100085F99 /* barcartbg2.jpg */,
+				7298C45C1AF72BFB007E4122 /* bc@40.png */,
+				F737328F1AFA9ECD00085F99 /* barcartbg4.jpg */,
+				F73732831AFA9A3700085F99 /* barcartbg3.jpg */,
+				7298C45D1AF72BFB007E4122 /* bc@120.png */,
+				F737327F1AFA932500085F99 /* barcartbg1.jpg */,
+				7298C45E1AF72BFB007E4122 /* DBManager.h */,
+				7298C45F1AF72BFB007E4122 /* DBManager.m */,
+				7298C4321AF72B76007E4122 /* Bar Cart */,
+				7298C44C1AF72B76007E4122 /* Bar CartTests */,
+				7298C4311AF72B76007E4122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7298C4311AF72B76007E4122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7298C4301AF72B76007E4122 /* Bar Cart.app */,
+				7298C4491AF72B76007E4122 /* Bar CartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7298C4321AF72B76007E4122 /* Bar Cart */ = {
+			isa = PBXGroup;
+			children = (
+				F75CF2951AF7CE7F0041FD34 /* clink.wav */,
+				7298C4661AF72C14007E4122 /* AppDelegate.h */,
+				7298C4671AF72C14007E4122 /* AppDelegate.m */,
+				7298C4681AF72C14007E4122 /* Main.storyboard */,
+				7298C4691AF72C14007E4122 /* IngredientViewController.h */,
+				7298C46A1AF72C14007E4122 /* IngredientViewController.m */,
+				7298C46B1AF72C14007E4122 /* InventoryListViewController.h */,
+				7298C46C1AF72C14007E4122 /* InventoryListViewController.m */,
+				7298C46D1AF72C14007E4122 /* SearchScreenViewController.h */,
+				7298C46E1AF72C14007E4122 /* SearchScreenViewController.m */,
+				7298C46F1AF72C14007E4122 /* MainMenuViewController.h */,
+				7298C4701AF72C14007E4122 /* MainMenuViewController.m */,
+				7298C4711AF72C14007E4122 /* EditRecipeViewController.h */,
+				7298C4721AF72C14007E4122 /* EditRecipeViewController.m */,
+				7298C4731AF72C14007E4122 /* EditDrinkViewController.h */,
+				7298C4741AF72C14007E4122 /* EditDrinkViewController.m */,
+				7298C4751AF72C14007E4122 /* RecipeListViewController.h */,
+				7298C4761AF72C14007E4122 /* RecipeListViewController.m */,
+				7298C4771AF72C14007E4122 /* DrinkListViewController.h */,
+				7298C4781AF72C14007E4122 /* DrinkListViewController.m */,
+				7298C4791AF72C14007E4122 /* Images.xcassets */,
+				7298C4331AF72B76007E4122 /* Supporting Files */,
+			);
+			path = "Bar Cart";
+			sourceTree = "<group>";
+		};
+		7298C4331AF72B76007E4122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7474D501AF765340030347D /* shaker1.png */,
+				F7474D511AF765340030347D /* shaker2.png */,
+				F7474D521AF765340030347D /* shaker3.png */,
+				F7474D531AF765340030347D /* shaker7.png */,
+				F7474D541AF765340030347D /* shaker8.png */,
+				7298C4341AF72B76007E4122 /* Info.plist */,
+				7298C4351AF72B76007E4122 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7298C44C1AF72B76007E4122 /* Bar CartTests */ = {
+			isa = PBXGroup;
+			children = (
+				7298C44F1AF72B76007E4122 /* Bar_CartTests.m */,
+				7298C44D1AF72B76007E4122 /* Supporting Files */,
+			);
+			path = "Bar CartTests";
+			sourceTree = "<group>";
+		};
+		7298C44D1AF72B76007E4122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7298C44E1AF72B76007E4122 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7298C42F1AF72B76007E4122 /* Bar Cart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7298C4531AF72B76007E4122 /* Build configuration list for PBXNativeTarget "Bar Cart" */;
+			buildPhases = (
+				7298C42C1AF72B76007E4122 /* Sources */,
+				7298C42D1AF72B76007E4122 /* Frameworks */,
+				7298C42E1AF72B76007E4122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bar Cart";
+			productName = "Bar Cart";
+			productReference = 7298C4301AF72B76007E4122 /* Bar Cart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7298C4481AF72B76007E4122 /* Bar CartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7298C4561AF72B76007E4122 /* Build configuration list for PBXNativeTarget "Bar CartTests" */;
+			buildPhases = (
+				7298C4451AF72B76007E4122 /* Sources */,
+				7298C4461AF72B76007E4122 /* Frameworks */,
+				7298C4471AF72B76007E4122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7298C44B1AF72B76007E4122 /* PBXTargetDependency */,
+			);
+			name = "Bar CartTests";
+			productName = "Bar CartTests";
+			productReference = 7298C4491AF72B76007E4122 /* Bar CartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7298C4281AF72B76007E4122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "John Chen & Ellen Halpin";
+				TargetAttributes = {
+					7298C42F1AF72B76007E4122 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					7298C4481AF72B76007E4122 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 7298C42F1AF72B76007E4122;
+					};
+				};
+			};
+			buildConfigurationList = 7298C42B1AF72B76007E4122 /* Build configuration list for PBXProject "bar cart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7298C4271AF72B76007E4122;
+			productRefGroup = 7298C4311AF72B76007E4122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7298C42F1AF72B76007E4122 /* Bar Cart */,
+				7298C4481AF72B76007E4122 /* Bar CartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7298C42E1AF72B76007E4122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7298C4611AF72BFB007E4122 /* bar2.jpg in Resources */,
+				F73732901AFA9ECD00085F99 /* barcartbg4.jpg in Resources */,
+				F7474D571AF765340030347D /* shaker3.png in Resources */,
+				7298C4631AF72BFB007E4122 /* bc@40.png in Resources */,
+				F7474D581AF765340030347D /* shaker7.png in Resources */,
+				7298C4841AF72C14007E4122 /* Images.xcassets in Resources */,
+				7298C4621AF72BFB007E4122 /* bar1.jpg in Resources */,
+				7298C47B1AF72C14007E4122 /* Main.storyboard in Resources */,
+				F73732821AFA983100085F99 /* barcartbg2.jpg in Resources */,
+				F7474D551AF765340030347D /* shaker1.png in Resources */,
+				F7474D591AF765340030347D /* shaker8.png in Resources */,
+				7298C4601AF72BFB007E4122 /* barcart.sql in Resources */,
+				F73732801AFA932500085F99 /* barcartbg1.jpg in Resources */,
+				7298C4641AF72BFB007E4122 /* bc@120.png in Resources */,
+				F73732841AFA9A3700085F99 /* barcartbg3.jpg in Resources */,
+				F75CF2961AF7CE7F0041FD34 /* clink.wav in Resources */,
+				F75CF2981AF7DDE00041FD34 /* clink.wav in Resources */,
+				F7474D561AF765340030347D /* shaker2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7298C4471AF72B76007E4122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7298C42C1AF72B76007E4122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7298C4361AF72B76007E4122 /* main.m in Sources */,
+				7298C47C1AF72C14007E4122 /* IngredientViewController.m in Sources */,
+				7298C4811AF72C14007E4122 /* EditDrinkViewController.m in Sources */,
+				7298C4801AF72C14007E4122 /* EditRecipeViewController.m in Sources */,
+				7298C4651AF72BFB007E4122 /* DBManager.m in Sources */,
+				7298C47D1AF72C14007E4122 /* InventoryListViewController.m in Sources */,
+				7298C4821AF72C14007E4122 /* RecipeListViewController.m in Sources */,
+				7298C47E1AF72C14007E4122 /* SearchScreenViewController.m in Sources */,
+				7298C47A1AF72C14007E4122 /* AppDelegate.m in Sources */,
+				7298C4831AF72C14007E4122 /* DrinkListViewController.m in Sources */,
+				7298C47F1AF72C14007E4122 /* MainMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7298C4451AF72B76007E4122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7298C4501AF72B76007E4122 /* Bar_CartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7298C44B1AF72B76007E4122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7298C42F1AF72B76007E4122 /* Bar Cart */;
+			targetProxy = 7298C44A1AF72B76007E4122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7298C4511AF72B76007E4122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7298C4521AF72B76007E4122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7298C4541AF72B76007E4122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bar Cart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7298C4551AF72B76007E4122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bar Cart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7298C4571AF72B76007E4122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bar CartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bar Cart.app/Bar Cart";
+			};
+			name = Debug;
+		};
+		7298C4581AF72B76007E4122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bar CartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bar Cart.app/Bar Cart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7298C42B1AF72B76007E4122 /* Build configuration list for PBXProject "bar cart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7298C4511AF72B76007E4122 /* Debug */,
+				7298C4521AF72B76007E4122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7298C4531AF72B76007E4122 /* Build configuration list for PBXNativeTarget "Bar Cart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7298C4541AF72B76007E4122 /* Debug */,
+				7298C4551AF72B76007E4122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7298C4561AF72B76007E4122 /* Build configuration list for PBXNativeTarget "Bar CartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7298C4571AF72B76007E4122 /* Debug */,
+				7298C4581AF72B76007E4122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7298C4281AF72B76007E4122 /* Project object */;
+}
